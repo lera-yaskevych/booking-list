@@ -1,0 +1,12 @@
+{
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": { "jsx": true }
+  },
+  "rules": {
+    "prefer-arrow-callback": "warn",
+    "arrow-body-style": ["warn", "as-needed"]
+  }
+}
